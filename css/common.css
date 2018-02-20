@@ -1,0 +1,21 @@
+html,body{
+	width: 100%;
+	min-width: 1200px;
+	-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    font-family: 'Microsoft YaHei', "微软雅黑", '\5FAE\8F6F\96C5\9ED1', 'HanHei SC', 'PingFang SC', sans-serif;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	display: block;
+}
